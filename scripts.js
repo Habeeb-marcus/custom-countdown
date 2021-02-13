@@ -13,9 +13,9 @@
 
  let countdownTitle = '';
  let countdownDate = '';
- let countdownValue = new Date();
+ let countdownValue = Date;
  let countdownActive;
- let savedCountdown;
+ let savedCountdown; 
 
  const second = 1000;
  const minute = 1000 * 60;
@@ -43,7 +43,7 @@ countdownActive = setInterval(() => {
 if (distance < 0) {
   countdownEl.hidden = true;
   clearInterval(countdownActive);
-  completeElInfo.textcontent = `${countdownTitle} finished on ${countdownDate}`;
+  completeElInfo.textContent = `${countdownTitle} finished on ${countdownDate}`;
   completeEl.hidden = false;
 }else {
   // Else show the countdown in progress

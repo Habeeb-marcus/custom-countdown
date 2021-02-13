@@ -63,7 +63,7 @@ video {
 
   .input-container {
     position: relative;
-    top: 20px;
+    top: 38px;
   }
 
   h1 {
@@ -113,7 +113,8 @@ video {
 
   /* Countdown */
   ul {
-    margin-left: -45px;
+    margin-left: -48px;
+    margin-top: -10px;
   }
 
   li {
@@ -137,7 +138,7 @@ video {
   }
 
   .countdown {
-    width: 450px;
+    width: 455px;
 
     padding: 3px;
   }
